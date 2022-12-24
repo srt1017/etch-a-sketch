@@ -1,0 +1,33 @@
+#container {
+	position: relative;
+	top: 30px;
+	outline:2px solid #000;
+	font-size: 0;
+	margin:auto;
+	height:960px;
+	width:960px;
+	padding: 0;
+	border: none;
+}
+
+.grid {
+	margin:0;
+	padding:0;
+	border:none;
+	outline:1px solid #000;
+	display:inline-block;
+}
+
+.grid:hover {
+    background-color: #000;
+}
+
+.newGrid {
+    color:#000;
+    background-color: firebrick;
+}
+
+.newGrid:hover {
+    background-color: blue;
+}
+
