@@ -28,4 +28,15 @@ function refreshGrid(){
 $(document).ready(function() {
     createGrid(16);
 
+    $(".grid").mouseover(function() {
+        $(this).css("background-color", "black");
+        });
+
+    $(".newGrid").click(function() {
+        refreshGrid();
+
+        $(".grid").click(function() {
+        $(this).css("background-color", "black");
+        });
+    });
 });
